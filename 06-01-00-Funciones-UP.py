@@ -1,6 +1,9 @@
-def mi_funcion():
-    print('saludos desde mi función')
+def suma(a, b):
+    s = a + b
+    return s
 
-mi_funcion()
 
-
+x = int(input("Ingrese el primer sumando: "))
+y = int(input("Ingrese el segundo sumando: "))
+z = suma(x, y)
+print(f"{x} + {y} =", z)
