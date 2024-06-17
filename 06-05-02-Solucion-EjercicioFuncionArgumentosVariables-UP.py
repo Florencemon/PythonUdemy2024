@@ -8,6 +8,7 @@ y regresar como resultado la suma de todos los valores pasados como argumentos.
 # Definimos nuestra funcion para sumar valores
 def sumar_valores(*args):
     resultado = 0
+
     # Iteramos cada elemento
     for valor in args:
         # resultado = resultado + valor
@@ -15,5 +16,7 @@ def sumar_valores(*args):
     return resultado
 
 
+
 # Llamada a la funcion
+
 print(sumar_valores(3, 5, 9, 4, 6))
